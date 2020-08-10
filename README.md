@@ -9,7 +9,6 @@ git clone https://github.com/marcellosso/ash_clouds
 cd backend
 npm install
 npm start
-
 ```
 
 ### Frontend:
@@ -17,5 +16,4 @@ npm start
 cd frontend
 yarn
 yarn start
-
 ```

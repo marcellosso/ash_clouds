@@ -174,7 +174,7 @@ export default function CloudGrid() {
 
                                 return (
                                     <div key={keyCol} className="gridCol">
-                                        {map.mapa[i][j].tipo == 'A' ? <i className="fas fa-plane"></i> : map.mapa[i][j].tipo == 'N' ? <i className="fas fa-cloud"></i> : <i className="fas fa-sun"></i>}
+                                        {map.mapa[i][j].tipo == 'A' ? <i className="fas fa-plane" style={{color: '#e25f5f'}}></i> : map.mapa[i][j].tipo == 'N' ? <i className="fas fa-cloud" style={{ color: 'rgb(110, 240, 240)' }}></i> : <i className="fas fa-sun" ></i>}
                                     </div>
                                 );
 
